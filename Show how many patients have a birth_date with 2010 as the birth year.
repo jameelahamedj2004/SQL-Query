@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS num_patients_2010
+FROM patients
+WHERE YEAR(birth_date) = 2010;
